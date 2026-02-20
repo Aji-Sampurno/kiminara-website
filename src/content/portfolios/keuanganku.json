@@ -4,6 +4,7 @@
   "category": "Finance App (Mobile)",
   "description": "Aplikasi pencatat keuangan offline dengan fitur komprehensif mulai dari pencatatan arus kas, aset, hutang, hingga ekspor PDF.",
   "fullDescription": "Aplikasi pencatat keuangan offline dengan fitur pencatatan pemasukan, pengeluaran, aset, tabungan, hutang, cicilan, manajemen kategori, ekspor PDF, serta backup & restore data lokal.",
+  "image": "/images/portfolios/app_icon.png",
   "imageUrl": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=800&auto=format&fit=crop",
   "isOffline": true
 }
