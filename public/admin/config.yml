@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: AjiSampurno/kiminara-website  # PLEASE UPDATE THIS TO YOUR ACTUAL GITHUB REPO NAME LATER
+  branch: main
+
+media_folder: "public/images/portfolios"
+public_folder: "/images/portfolios"
+
+collections:
+  - name: "portfolios"
+    label: "Portofolio Aplikasi"
+    folder: "src/content/portfolios"
+    create: true
+    slug: "{{id}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "ID Aplikasi (contoh: keuanganku)", name: "id", widget: "string" }
+      - { label: "Judul Aplikasi", name: "title", widget: "string" }
+      - { label: "Kategori Bidang", name: "category", widget: "string" }
+      - { label: "Deskripsi Singkat (Card Beranda)", name: "description", widget: "text" }
+      - { label: "Deskripsi Lengkap (Halaman Detail)", name: "fullDescription", widget: "markdown" }
+      - { label: "Gambar Thumbnail", name: "image", widget: "image", required: false }
+      - { label: "Kustom URL Gambar (Opsional jika pakai Unsplash)", name: "imageUrl", widget: "string", required: false, hint: "Gunakan ini jika ingin menggunakan link gambar dari internet alih-alih upload file." }
+      - { label: "Apakah Aplikasi Offline? (Privasi Lokal)", name: "isOffline", widget: "boolean", default: false }
