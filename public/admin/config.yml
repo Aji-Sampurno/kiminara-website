@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: AjiSampurno/kiminara-website  # PLEASE UPDATE THIS TO YOUR ACTUAL GITHUB REPO NAME LATER
+  repo: Aji-Sampurno/kiminara-website
   branch: main
 
 media_folder: "public/images/portfolios"
